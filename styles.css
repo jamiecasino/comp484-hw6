@@ -1,0 +1,66 @@
+/* Color Palette
+#FFCAE9 - Light Pink
+#FA9BCF - Bubblegum Pink
+#F4DBE9 - Soft Blush
+#FFF0F1 - Creamy Pink
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+    background: #FFCAE9;
+    color: #4A4140;
+    font-family: "Questrial", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "League Spartan", sans-serif;
+}
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+    background: #FA9BCF;
+    color: #4A4140;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #FFF0F1;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #F4DBE9;
+}
